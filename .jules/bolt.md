@@ -1,0 +1,3 @@
+## 2024-11-20 - Documentation Asset Optimization
+**Learning:** In repositories that are primarily documentation or architectural references, the "User Interface" is the documentation itself. Performance optimizations like preventing Cumulative Layout Shift (CLS) by using explicit image dimensions and using `decoding="async"` are critical for a professional and smooth reading experience, especially for large technical diagrams.
+**Action:** Always verify that documentation images have explicit width/height and appropriate loading/decoding strategies to optimize the Largest Contentful Paint (LCP) and visual stability.
