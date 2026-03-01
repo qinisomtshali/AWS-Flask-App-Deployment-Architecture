@@ -1,0 +1,3 @@
+## 2024-05-23 - Image Optimization for Documentation
+**Learning:** Documentation files using standard Markdown syntax for images (`![]()`) lack control over layout shift. For architecture diagrams (often the LCP element in READMEs), this results in poor Core Web Vitals (specifically CLS). Long, complex filenames with special characters can also cause issues with URL encoding and toolchain compatibility.
+**Action:** Use semantic HTML (`<figure>` and `<img>`) in READMEs to specify `width`, `height`, `loading`, and `decoding` attributes. Always normalize documentation assets to kebab-case filenames to ensure broad compatibility and readability.
