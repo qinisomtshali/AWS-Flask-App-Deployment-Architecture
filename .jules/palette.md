@@ -1,0 +1,3 @@
+## 2025-05-14 - Semantic Documentation Diagrams
+**Learning:** For technical documentation, standard Markdown image syntax (`![]()`) lacks the semantic depth needed for accessibility and visual context. Using `<figure>` and `<figcaption>` provides a clear relationship between diagrams and their descriptions for both visual users and screen readers. Additionally, providing explicit width/height on documentation images prevents Cumulative Layout Shift (CLS) during page load, ensuring a stable reading experience.
+**Action:** Always prefer `<figure>`/`<figcaption>` for architecture diagrams and screenshots in READMEs to enhance semantic clarity and accessibility.
