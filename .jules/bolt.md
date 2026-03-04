@@ -1,0 +1,3 @@
+## 2025-05-14 - Documentation Image Optimization
+**Learning:** In documentation-only or documentation-heavy repositories, the "UI" is the markdown rendering. Performance optimizations like explicit image dimensions, async decoding, and loading strategies (eager for LCP, lazy for below-the-fold) significantly improve the reading experience by preventing layout shifts (CLS) and speeding up the Largest Contentful Paint (LCP).
+**Action:** Always inspect documentation for unlinked or unoptimized assets. Use explicit `width` and `height` in `<img>` tags for diagrams to ensure zero CLS during page load.
