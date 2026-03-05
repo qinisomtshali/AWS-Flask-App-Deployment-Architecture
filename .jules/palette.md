@@ -1,0 +1,3 @@
+## 2025-03-13 - Optimizing documentation images for UX and Performance
+**Learning:** In documentation-heavy repositories, the documentation itself is the User Interface. UX and performance improvements should focus on making technical diagrams and text intuitive, accessible, and performant. Specifically, using semantic HTML like `<figure>` and `<figcaption>` provides better context for screen readers, and providing explicit dimensions (`width`/`height`) prevents Cumulative Layout Shift (CLS).
+**Action:** Always use semantic labels and descriptive ARIA/alt text for images. Use explicit dimensions and modern formats (like WebP) to optimize for both accessibility and loading performance.
