@@ -1,0 +1,3 @@
+## 2024-11-22 - Optimizing Documentation Assets for CLS
+**Learning:** In documentation-only repositories, the "UI" is the Markdown content. Performance bottlenecks primarily manifest as Cumulative Layout Shift (CLS) and slow Largest Contentful Paint (LCP) for diagrams. Standard Markdown image syntax `![]()` lacks the ability to specify dimensions, leading to a CLS of 1.0 when the image eventually loads and pushes content down.
+**Action:** Use semantic `<img>` tags with explicit `width` and `height` attributes to reserve layout space. Combine with `loading="eager"` and `decoding="async"` for LCP optimization.
