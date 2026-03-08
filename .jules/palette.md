@@ -1,0 +1,3 @@
+## 2024-11-21 - Semantic Documentation Assets
+**Learning:** In documentation-centric repositories, the documentation itself is the user interface. Using semantic HTML like `<figure>` and `<figcaption>` instead of basic Markdown image syntax provides superior accessibility by explicitly linking descriptions to visual assets. Furthermore, it allows for performance optimizations like `loading="eager"`, `decoding="async"`, and explicit dimensions to eliminate Layout Shift (CLS).
+**Action:** Use semantic HTML for primary documentation diagrams to enhance accessibility and prevent layout shifts during page load.
