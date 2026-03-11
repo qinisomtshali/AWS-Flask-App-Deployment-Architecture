@@ -1,0 +1,3 @@
+## 2025-05-14 - Documentation as the Primary UI
+**Learning:** In repositories that primarily serve as architectural blueprints or documentation, the `README.md` is the "User Interface." UX improvements should focus on scannability, visual cues (like badges), and reducing cognitive load by structuring dense technical descriptions into ordered flows.
+**Action:** When a project lacks a web frontend, apply Palette's principles to the documentation: use lists for processes, badges for technology stacks, and direct links for external resources to make the documentation more actionable and accessible.
