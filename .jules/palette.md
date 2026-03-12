@@ -1,0 +1,3 @@
+## 2025-05-15 - [Accessibility: Text-based Alternatives for AI Diagrams]
+**Learning:** AI-generated architecture diagrams often contain visual artifacts and text errors (typos). Relying solely on these diagrams for documentation is inaccessible to screen reader users and confusing for all users when the text is garbled.
+**Action:** Always provide a semantic, text-based description (e.g., a "Core Components" or "How it Works" section) alongside AI-generated diagrams. Ensure the `alt` text provides a concise summary of the visual flow, and use `<figure>` and `<figcaption>` for better structural context.
