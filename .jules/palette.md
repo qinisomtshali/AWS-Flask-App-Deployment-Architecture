@@ -1,0 +1,3 @@
+## 2025-05-15 - Documentation-as-Interface Accessibility
+**Learning:** In repositories containing only architectural documentation and no application code, the documentation itself serves as the User Interface. Accessibility wins in this context focus on providing semantic, text-based alternatives for complex visual diagrams to ensure screen-reader compatibility and searchability.
+**Action:** When working in documentation-only environments, prioritize converting visual information into semantic HTML or Markdown structures (like descriptive lists or <figure> elements) to bridge the accessibility gap for non-visual users.
