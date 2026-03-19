@@ -1,0 +1,3 @@
+## 2025-05-15 - Text-based Alternatives for Architecture Diagrams
+**Learning:** AI-generated diagrams, while visually appealing, often contain text artifacts or typos that hinder accessibility and searchability. Relying solely on these images for technical documentation excludes users with screen readers and makes the information harder to parse.
+**Action:** Always provide "Core Components" and "Deployment Workflow" sections (or similar text-based alternatives) for complex technical illustrations. This ensures information is accessible, searchable, and serves as a reliable fallback for the visual diagram.
