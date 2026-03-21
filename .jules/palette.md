@@ -1,0 +1,3 @@
+## 2026-03-21 - [Documentation Accessibility: Complex Diagrams]
+**Learning:** For complex technical diagrams in documentation-only repositories, the documentation itself is the UI. A simple `alt` attribute is often insufficient for intricate architecture diagrams. Providing a structured text-based alternative (e.g., "Core Components" and "Deployment Workflow" sections) ensures information is accessible, searchable, and navigable by screen readers.
+**Action:** Always complement complex diagrams with descriptive text sections and update `alt` text to explicitly reference these sections (e.g., 'See the Core Components section for a detailed description').
