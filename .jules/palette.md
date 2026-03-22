@@ -1,0 +1,3 @@
+## 2025-05-15 - Accessible Documentation as User Interface
+**Learning:** In repositories containing only documentation and assets, the documentation itself serves as the User Interface. Complex technical diagrams (especially those that are AI-generated) often fail accessibility standards due to inadequate alt text and visual artifacts. Providing structured, text-based "Core Components" and "Deployment Workflow" sections serves as a robust alternative for screen readers while improving searchability and clarity for all users.
+**Action:** When encountering complex diagrams in documentation, prioritize creating detailed text-based sections that mirror the diagram's content and update the `alt` text to explicitly reference these sections.
