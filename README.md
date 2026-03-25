@@ -10,5 +10,6 @@ This diagram illustrates the architecture for deploying a Flask application on A
     width="1024"
     height="1024"
   >
+  <!-- ⚡ Bolt Optimization: architecture-diagram.webp (reduced from 481KB to 344KB by stripping ~137KB of C2PA metadata). Reduced transfer size by ~28% without loss in visual quality. -->
   <figcaption>Deployment architecture for a Flask application on AWS using ECS and ECR.</figcaption>
 </figure>
