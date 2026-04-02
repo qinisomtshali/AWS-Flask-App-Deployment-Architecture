@@ -5,10 +5,9 @@ This diagram illustrates the architecture for deploying a Flask application on A
   <img
     src="architecture-diagram.webp"
     alt="Architecture diagram for deploying a Flask application on AWS. See the Core Components section for a detailed description."
-    loading="eager"
-    decoding="async"
     width="1024"
     height="1024"
+    decoding="async"
   >
   <figcaption>Deployment architecture for a Flask application on AWS using ECS and ECR.</figcaption>
 </figure>
