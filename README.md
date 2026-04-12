@@ -2,10 +2,11 @@
 This diagram illustrates the architecture for deploying a Flask application on AWS. It showcases the flow from the user accessing the app through the Application Load Balancer (ALB), which routes traffic to an ECS service running Docker containers. These containers pull the Flask app image from Amazon ECR.
 
 <figure>
+  <!-- LCP Optimization: fetchpriority="high" ensures the hero image is prioritized by the browser's preload scanner. loading="eager" is removed as it's the default for above-the-fold content. -->
   <img
     src="architecture-diagram.webp"
     alt="Architecture diagram for deploying a Flask application on AWS. See the Core Components section for a detailed description."
-    loading="eager"
+    fetchpriority="high"
     decoding="async"
     width="1024"
     height="1024"
