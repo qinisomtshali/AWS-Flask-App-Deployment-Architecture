@@ -4,20 +4,26 @@ This diagram illustrates the architecture for deploying a Flask application on A
 <figure>
   <img
     src="architecture-diagram.webp"
-    alt="Architecture diagram for deploying a Flask application on AWS. See the Core Components section for a detailed description."
+    alt="Architecture diagram for deploying a Flask application on AWS. Detailed descriptions are available in the Core Components and Deployment Workflow sections."
     loading="eager"
     decoding="async"
     width="1024"
     height="1024"
   >
-  <figcaption>Deployment architecture for a Flask application on AWS using ECS and ECR.</figcaption>
+  <figcaption>Deployment architecture for a Flask application on AWS using ECS and ECR. Detailed descriptions are available in the <a href="#core-components">Core Components</a> and <a href="#deployment-workflow">Deployment Workflow</a> sections.</figcaption>
 </figure>
+
+<a id="core-components"></a>
 
 ## 📦 Core Components
 
 - **Application Load Balancer (ALB):** Acts as the entry point for user traffic, distributing incoming requests across the ECS service.
 - **Amazon ECS (Elastic Container Service):** Orchestrates the deployment of Docker containers running the Flask application.
 - **Amazon ECR (Elastic Container Registry):** Stores the Docker images for the Flask application, which are pulled by ECS during deployment.
+- **Security Groups:** Control inbound and outbound traffic to ensure secure communication between components.
+- **VPC and Subnets:** Provide a logically isolated section of the AWS cloud to launch resources in a defined virtual network.
+
+<a id="deployment-workflow"></a>
 
 ## 🚀 Deployment Workflow
 
@@ -25,3 +31,5 @@ This diagram illustrates the architecture for deploying a Flask application on A
 2.  **Service Update:** Amazon ECS is configured to pull the latest image from ECR.
 3.  **Container Launch:** ECS launches tasks in the service using the specified image.
 4.  **Traffic Routing:** The Application Load Balancer (ALB) routes incoming user traffic to the healthy containers in the ECS service.
+
+[↑ Back to Top](#aws-flask-app-deployment-architecture)
