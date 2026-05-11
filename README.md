@@ -1,5 +1,5 @@
 # AWS-Flask-App-Deployment-Architecture
-This diagram illustrates the architecture for deploying a Flask application on AWS. It showcases the flow from the user accessing the app through the Application Load Balancer (ALB), which routes traffic to an ECS service running Docker containers. These containers pull the Flask app image from Amazon ECR.
+This diagram illustrates the architecture for deploying a Flask application on AWS. It showcases the flow from the user accessing the app through the Application Load Balancer (ALB), which routes traffic to an ECS service running Docker containers. These containers pull the Flask app image from Amazon ECR. Review the <a href="#deployment-workflow">deployment workflow</a> for step-by-step details.
 
 <figure>
   <img
@@ -10,16 +10,17 @@ This diagram illustrates the architecture for deploying a Flask application on A
     width="1024"
     height="1024"
   >
-  <figcaption>Deployment architecture for a Flask application on AWS using ECS and ECR.</figcaption>
+  <figcaption>Deployment architecture for a Flask application on AWS using ECS and ECR. See the <a href="#core-components">Core Components</a> section for a detailed description.</figcaption>
 </figure>
 
-## 📦 Core Components
+<h2 id="core-components">📦 Core Components</h2>
 
 - **Application Load Balancer (ALB):** Acts as the entry point for user traffic, distributing incoming requests across the ECS service.
 - **Amazon ECS (Elastic Container Service):** Orchestrates the deployment of Docker containers running the Flask application.
 - **Amazon ECR (Elastic Container Registry):** Stores the Docker images for the Flask application, which are pulled by ECS during deployment.
+- **Security Groups:** Act as a virtual firewall for the instances to control inbound and outbound traffic, ensuring only authorized communication between components.
 
-## 🚀 Deployment Workflow
+<h2 id="deployment-workflow">🚀 Deployment Workflow</h2>
 
 1.  **Image Storage:** The Flask application's Docker image is pushed to Amazon ECR.
 2.  **Service Update:** Amazon ECS is configured to pull the latest image from ECR.
