@@ -1,0 +1,3 @@
+## 2025-05-14 - Documentation Accessibility and Navigation
+**Learning:** In documentation-centric repositories, the README.md serves as the primary user interface. Internal navigation links (anchors) and synchronization between visual assets (diagrams) and textual descriptions are critical for accessibility (screen readers) and information discovery. Using explicit `<a id="..."></a>` anchors is more reliable across different Markdown renderers than relying on auto-generated header IDs, especially when headers contain emojis or special characters.
+**Action:** Always verify that internal links match the IDs of the target sections and prioritize explicit anchors for critical navigation paths in documentation.
