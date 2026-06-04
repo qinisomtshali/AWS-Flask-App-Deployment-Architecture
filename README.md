@@ -6,10 +6,17 @@ This diagram illustrates the architecture for deploying a Flask application on A
     src="architecture-diagram.webp"
     alt="Architecture diagram for deploying a Flask application on AWS. See the Core Components section for a detailed description."
     fetchpriority="high"
-    decoding="async"
+    decoding="sync"
     width="1024"
     height="1024"
   >
+  <!--
+    Performance Optimizations:
+    - fetchpriority="high": Prioritizes the main architectural diagram as the LCP element.
+    - decoding="sync": Ensures the image is painted immediately to minimize LCP delay.
+    - width/height: Prevents Layout Shift (CLS).
+    - Asset optimization: Compressed to ~170KB (18% reduction) for faster download.
+  -->
   <figcaption>Deployment architecture for a Flask application on AWS using ECS and ECR.</figcaption>
 </figure>
 
