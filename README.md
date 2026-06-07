@@ -4,13 +4,13 @@ This diagram illustrates the architecture for deploying a Flask application on A
 <figure>
   <img
     src="architecture-diagram.webp"
-    alt="Architecture diagram for deploying a Flask application on AWS. See the Core Components section for a detailed description."
+    alt="Architecture diagram illustrating user traffic flow through an Application Load Balancer to ECS containers pulling images from ECR. Detailed descriptions follow in the Core Components section."
     fetchpriority="high"
     decoding="async"
     width="1024"
     height="1024"
   >
-  <figcaption>Deployment architecture for a Flask application on AWS using ECS and ECR.</figcaption>
+  <figcaption>Deployment architecture for a Flask application on AWS using ECS and ECR. <a href="#core-components">Jump to detailed descriptions</a></figcaption>
 </figure>
 
 <a id="core-components"></a>
