@@ -1,3 +1,3 @@
-## 2025-05-15 - AI-Generated Diagram Accessibility
-**Learning:** AI-generated diagrams (like the architecture visualization) often contain text artifacts or typos that can be difficult for all users to read. For screen reader accessibility and general clarity, it's essential to provide a comprehensive text-based alternative within the documentation rather than relying solely on the `alt` attribute for complex details.
-**Action:** When documenting architecture with complex images, include "Core Components" and "Deployment Workflow" text sections and link to them in the image `alt` text (e.g., 'See the Core Components section for a detailed description').
+## 2026-06-13 - [Architecture Diagram Content Parity]
+**Learning:** Architectural diagrams often contain technical components (VPC, Subnets, Security Groups) that are not explicitly detailed in the accompanying text, creating an information gap for screen reader users and reducing clarity for all users.
+**Action:** Always audit diagrams against the "Core Components" or equivalent sections to ensure 1:1 information parity, and provide navigation links (e.g., "Jump to detailed descriptions") to bridge the visual and textual contexts.
