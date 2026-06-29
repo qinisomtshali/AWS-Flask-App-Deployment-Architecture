@@ -12,6 +12,7 @@ This diagram illustrates the architecture for deploying a Flask application on A
   >
   <figcaption>Deployment architecture for a Flask application on AWS using ECS and ECR.</figcaption>
 </figure>
+<!-- Optimized architecture-diagram.webp: 18% size reduction (208KB -> 170KB) using Quality 70 re-encoding. -->
 
 <a id="core-components"></a>
 
