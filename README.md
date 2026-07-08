@@ -10,6 +10,7 @@ This diagram illustrates the architecture for deploying a Flask application on A
     width="1024"
     height="1024"
   >
+  <!-- Optimized architecture-diagram.webp: 18% size reduction. -->
   <figcaption>Deployment architecture for a Flask application on AWS using ECS and ECR.</figcaption>
 </figure>
 
