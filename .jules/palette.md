@@ -1,3 +1,7 @@
-## 2025-05-15 - AI-Generated Diagram Accessibility
-**Learning:** AI-generated diagrams (like the architecture visualization) often contain text artifacts or typos that can be difficult for all users to read. For screen reader accessibility and general clarity, it's essential to provide a comprehensive text-based alternative within the documentation rather than relying solely on the `alt` attribute for complex details.
-**Action:** When documenting architecture with complex images, include "Core Components" and "Deployment Workflow" text sections and link to them in the image `alt` text (e.g., 'See the Core Components section for a detailed description').
+## 2025-05-14 - Skip-link for Architectural Diagrams
+**Learning:** For complex documentation diagrams, a 'Jump to detailed description' internal navigation link inside the `<figcaption>` is a preferred reusable UX pattern in this repository to assist screen-reader and keyboard users in navigating text alternatives.
+**Action:** Always include a skip-link in the figcaption of informative diagrams that points to their textual breakdown.
+
+## 2025-05-14 - Information Parity for Diagrams
+**Learning:** Architectural diagrams often contain infrastructure details (e.g., Security Groups, Subnets) that are omitted from the main text, creating an information gap for screen reader users.
+**Action:** Audit diagrams for technical components and ensure each has a corresponding textual description to achieve full information parity.
