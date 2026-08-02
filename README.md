@@ -10,7 +10,10 @@ This diagram illustrates the architecture for deploying a Flask application on A
     width="1024"
     height="1024"
   >
-  <figcaption>Deployment architecture for a Flask application on AWS using ECS and ECR.</figcaption>
+  <figcaption>
+    Deployment architecture for a Flask application on AWS using ECS and ECR.
+    <a href="#core-components" aria-label="Jump to detailed description of the architecture components">(View Details)</a>
+  </figcaption>
 </figure>
 
 <a id="core-components"></a>
