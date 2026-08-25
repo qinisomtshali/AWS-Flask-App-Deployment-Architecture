@@ -16,13 +16,13 @@ This diagram illustrates the architecture for deploying a Flask application on A
   </figcaption>
 </figure>
 
-<a id="core-components"></a>
-
-## 📦 Core Components
+<h2 id="core-components">📦 Core Components</h2>
 
 - **Application Load Balancer (ALB):** Acts as the entry point for user traffic, distributing incoming requests across the ECS service.
 - **Amazon ECS (Elastic Container Service):** Orchestrates the deployment of Docker containers running the Flask application.
 - **Amazon ECR (Elastic Container Registry):** Stores the Docker images for the Flask application, which are pulled by ECS during deployment.
+- **Security Groups:** Control inbound and outbound network traffic to secure the container instances and load balancer.
+- **VPC & Subnets:** Provide isolated Virtual Private Cloud network infrastructure for hosting application resources safely across subnets.
 
 ## 🚀 Deployment Workflow
 
