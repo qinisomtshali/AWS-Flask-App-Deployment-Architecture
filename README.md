@@ -23,6 +23,8 @@ This diagram illustrates the architecture for deploying a Flask application on A
 - **Application Load Balancer (ALB):** Acts as the entry point for user traffic, distributing incoming requests across the ECS service.
 - **Amazon ECS (Elastic Container Service):** Orchestrates the deployment of Docker containers running the Flask application.
 - **Amazon ECR (Elastic Container Registry):** Stores the Docker images for the Flask application, which are pulled by ECS during deployment.
+- **Security Groups:** Act as a virtual firewall for your EC2 instances to control incoming and outgoing traffic.
+- **VPC & Subnets:** A Virtual Private Cloud (VPC) is a private network within AWS where you can launch resources. Subnets allow you to partition the VPC into smaller segments.
 
 ## 🚀 Deployment Workflow
 
