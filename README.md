@@ -6,6 +6,7 @@ This diagram illustrates the architecture for deploying a Flask application on A
     src="architecture-diagram.webp"
     alt="Architecture diagram for deploying a Flask application on AWS. See the Core Components section for a detailed description."
     fetchpriority="high"
+    loading="eager"
     decoding="async"
     width="1024"
     height="1024"
@@ -15,6 +16,12 @@ This diagram illustrates the architecture for deploying a Flask application on A
     <a href="#core-components" aria-label="Jump to detailed description of the architecture components">(Jump to detailed description)</a>
   </figcaption>
 </figure>
+
+<!-- LCP OPTIMIZATION:
+     - architecture-diagram.webp was re-encoded (Quality 75, Method 6) to reduce file size.
+     - fetchpriority="high" and loading="eager" ensure the diagram is prioritized during page load.
+     - decoding="async" prevents the browser from blocking while decoding the image.
+-->
 
 <a id="core-components"></a>
 
