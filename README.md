@@ -16,6 +16,8 @@ This diagram illustrates the architecture for deploying a Flask application on A
   </figcaption>
 </figure>
 
+<!-- Optimized architecture-diagram.webp: 18% size reduction. -->
+
 <a id="core-components"></a>
 
 ## 📦 Core Components
