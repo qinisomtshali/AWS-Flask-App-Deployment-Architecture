@@ -1,3 +1,3 @@
-## 2025-05-15 - AI-Generated Diagram Accessibility
-**Learning:** AI-generated diagrams (like the architecture visualization) often contain text artifacts or typos that can be difficult for all users to read. For screen reader accessibility and general clarity, it's essential to provide a comprehensive text-based alternative within the documentation rather than relying solely on the `alt` attribute for complex details.
-**Action:** When documenting architecture with complex images, include "Core Components" and "Deployment Workflow" text sections and link to them in the image `alt` text (e.g., 'See the Core Components section for a detailed description').
+## 2025-05-14 - Complex Diagram Accessibility Pattern
+**Learning:** Large architectural diagrams in documentation often lack information parity with the text, making them inaccessible to screen-reader users. A concise `alt` text isn't enough; a 'Jump to detailed description' skip-link combined with full text descriptions for all components in the diagram is necessary for true accessibility.
+**Action:** Always verify that every technical component in a diagram (e.g., VPC, Security Groups) has a corresponding definition in the text, and provide a skip-link in the `<figcaption>` to bridge the visual-to-text gap.
