@@ -1,5 +1,5 @@
 # Bolt's Journal - Critical Learnings
 
 ## 2025-03-26 - Documentation Performance
-**Learning:** In documentation-only repositories, image assets are the primary performance bottleneck. AI-generated images often contain large metadata chunks (like C2PA) that can be stripped without affecting visual quality. If metadata stripping isn't enough, lossy re-encoding (Quality 80) can provide a significant LCP boost (~41% reduction) with negligible visual impact.
-**Action:** Always check WebP/PNG assets for metadata chunks using binary analysis. If stripping is insufficient, use Pillow for high-effort lossy re-encoding to optimize for LCP.
+**Learning:** In documentation-only repositories, image assets are the primary performance bottleneck. Successive rounds of quality reduction (e.g., Quality 80 to 70) combined with max compression effort (WebP Method 6) can yield double-digit percentage gains (e.g., an additional 18% reduction) even on previously "optimized" architectural diagrams without perceptible visual loss.
+**Action:** When optimizing WebP assets, don't stop at Quality 80; test Quality 70 with Method 6 to maximize LCP gains while maintaining legibility.
