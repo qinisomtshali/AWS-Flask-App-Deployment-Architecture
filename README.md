@@ -5,6 +5,7 @@ This diagram illustrates the architecture for deploying a Flask application on A
   <img
     src="architecture-diagram.webp"
     alt="Architecture diagram for deploying a Flask application on AWS. See the Core Components section for a detailed description."
+    aria-describedby="core-components"
     fetchpriority="high"
     decoding="async"
     width="1024"
